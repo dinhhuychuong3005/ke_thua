@@ -7,6 +7,7 @@ public class Shape {
             this.color = "Green";
             this.filled = true;
         }
+
 public Shape(String color,boolean filled){
             this.color = color;
             this.filled = filled;
