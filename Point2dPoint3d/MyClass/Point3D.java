@@ -25,7 +25,7 @@ public Point3D(float x, float y, float z){
     this.z = z;
     }
     public float[] getXYZ(){
-    float[]arr1 = {this.getX(),this.getY(),this.getZ()};
+    float[]arr1 = {getX(),getY(),getZ()};
     return arr1;
     }
 
@@ -34,7 +34,8 @@ public Point3D(float x, float y, float z){
         return "Point2D{" +
                 "x=" + getX() +
                 ", y=" + getY() +
-                " " + "{" + getXYZ()[0] + "," + getXYZ()[1] + getXYZ()[2] +
+                ", z=" + getZ() +
+                " " + "{" + getXYZ()[0] + "," + getXYZ()[1] + "," + getXYZ()[2] +
                 '}';
     }
 }
